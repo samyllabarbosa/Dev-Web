@@ -1,0 +1,31 @@
+h1{
+    color: darkblue;
+    text-align: center;
+    font-size: 40px;
+}
+h2, p{
+    color: black;
+    text-align: center;
+    font-size: 30px;
+}
+body{
+    background-color: #87ceeb;
+}
+th{
+    background-color: darkblue;
+    color: white;
+}
+td{
+    text-align: center;
+    padding: 30px;
+}
+
+table, td, td {
+    border: 1px solid black;
+}
+table{
+    margin: 0 auto;
+    width: 60%;
+    background-color: white;
+    border-collapse: collapse;
+}
