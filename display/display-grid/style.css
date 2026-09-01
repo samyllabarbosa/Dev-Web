@@ -1,0 +1,15 @@
+.container{
+    display: grid;
+    /* grid-template-columns: repeat(3, 1fr); */
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-rows: repeat(2, 200px);
+    /* forma de deixar o grid responsivo */
+    gap: 10px;
+}
+
+.item{
+    background-color: lightpink;
+    color: white;
+    margin: 5px;
+    padding: 10px;
+}
